@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Assignment2</title>
+    <meta name="Keywords" content="HTML, CSS, Assignment1">
+    <meta name="description" content="Assignment2 of CSS">
+
+    <style>
+        body,
+        html {
+            width: 800px;
+            height: 500px;
+            margin: 10px;
+        }
+        
+        .container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            text-align: center;
+        }
+        
+        .leftpane {
+            width: 500px;
+            height: 400px;
+            color: white;
+            background-color: yellow;
+            float: left;
+            background-image: url("assignment2_1.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            border-collapse: collapse;
+        }
+        
+        .rightpane {
+            width: 300px;
+            height: 400px;
+            background-color: #ECECFB;
+            background-image: url("assignment2_2.png");
+            background-repeat: no-repeat;
+            background-position: center top;
+            position: relative;
+            float: right;
+            border-collapse: collapse;
+        }
+        
+        .toppane {
+            width: 800px;
+            height: 100px;
+            border-collapse: collapse;
+            background-color: #FF9999;
+        }
+        
+        table {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <div class="toppane"><br><br> CSS is a language that describes the style of an HTML document.<br> CSS describes how HTML elements should be displayed.</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="leftpane">
+                        <br> <br><br><br><br> <br><br><br>CSS is a language that describes the style of an HTML document.CSS describes how HTML elements should be displayed.
+                    </div>
+                </td>
+                <td>
+                    <div class="rightpane">
+
+                        <br> <br><br><br><br><br><br><br> <br><br><br>
+                        <h2> About Me</h2>CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be displayed.
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
